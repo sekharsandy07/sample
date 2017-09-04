@@ -13,6 +13,7 @@
 		260CE0BD1F5A9AB300FD8FC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260CE0BB1F5A9AB300FD8FC9 /* Main.storyboard */; };
 		260CE0BF1F5A9AB300FD8FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260CE0BE1F5A9AB300FD8FC9 /* Assets.xcassets */; };
 		260CE0C21F5A9AB300FD8FC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260CE0C01F5A9AB300FD8FC9 /* LaunchScreen.storyboard */; };
+		26B406C71F5D553800538A0D /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B406C61F5D553800538A0D /* secondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		260CE0BE1F5A9AB300FD8FC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		260CE0C11F5A9AB300FD8FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		260CE0C31F5A9AB300FD8FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B406C51F5D553800538A0D /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		26B406C61F5D553800538A0D /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				260CE0B61F5A9AB300FD8FC9 /* AppDelegate.m */,
 				260CE0B81F5A9AB300FD8FC9 /* ViewController.h */,
 				260CE0B91F5A9AB300FD8FC9 /* ViewController.m */,
+				26B406C51F5D553800538A0D /* secondViewController.h */,
+				26B406C61F5D553800538A0D /* secondViewController.m */,
 				260CE0BB1F5A9AB300FD8FC9 /* Main.storyboard */,
 				260CE0BE1F5A9AB300FD8FC9 /* Assets.xcassets */,
 				260CE0C01F5A9AB300FD8FC9 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B406C71F5D553800538A0D /* secondViewController.m in Sources */,
 				260CE0BA1F5A9AB300FD8FC9 /* ViewController.m in Sources */,
 				260CE0B71F5A9AB300FD8FC9 /* AppDelegate.m in Sources */,
 				260CE0B41F5A9AB300FD8FC9 /* main.m in Sources */,
@@ -309,6 +315,7 @@
 				260CE0C81F5A9AB300FD8FC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

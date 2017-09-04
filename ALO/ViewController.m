@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "secondViewController.h"
 
 @interface ViewController ()
 
@@ -26,4 +27,12 @@
 }
 
 
+
+- (IBAction)btnnn:(id)sender
+{
+    secondViewController * svc=[[secondViewController alloc]init];
+   svc=[self.storyboard instantiateViewControllerWithIdentifier:@"sek"];
+    [self presentViewController:svc animated:YES completion:nil];
+
+}
 @end
